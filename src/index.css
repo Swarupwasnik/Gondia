@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Home */
+.active_class{
+  color: blue;  
+  border-bottom:1px solid rebeccapurple ;
+  }
+  .img-fluid-animated{
+    height: 400px;
+    width: 500px;
+    
+  }
+ .home{
+  color:darkblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .brand-name{
+  color: deepskyblue;
+  font-family: 'Lobster', cursive;
+font-weight: 200;
+
+
+ }
+ .brand-name:hover{
+  color: dodgerblue;
+ }
+ .mt-3{
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid;
+  text-align: center;
+  background-color:whitesmoke;
+  cursor: pointer;
+ }
+ .mt-3:hover{
+background-color: hotpink;
+ }
+ .container-fluid-nav_bg{
+  margin: 100px;
+ }
+ .btn-gtn-started{
+  color: gold;
+ }
+ .my-3{
+  font-family: 'Lobster', cursive;
+  
+ }
+ /* About */
+
+ .btn-gtn-started{
+  
+  font-family: 'Dancing Script', cursive;
+
+ }
+ .container-fluid mb-5{
+  display: flex;
+flex-wrap: nowrap;
+ }
+ /* Responsive */
+
+ @media (max-width:991px){
+  #header{
+    height: 80vh;
+    text-align: center;
+  }
+  #header .header-img img{
+width: 60%;
+  }
+ }
+
+ @media(max-width:768px){
+  #header{
+    margin-top: 20px;
+  }
+  #header.h1{
+    font-size: 28px;
+  }
+  #header.h2{
+    font-size: 28px;
+  }
+ }
+ 

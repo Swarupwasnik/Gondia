@@ -1,0 +1,25 @@
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom:1px royalblue solid ;
+    cursor: pointer;
+  }
+.menu_active:hover{
+    color: cornflowerblue;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:whitesmoke 2px 2px;
+    color: blueviolet;
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+}
+.navbar-brand:hover{
+    color: darkblue;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.collapse navbar-collapse{
+    display: flex;
+    justify-items: flex-end;
+}
